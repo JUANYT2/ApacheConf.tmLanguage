@@ -15,7 +15,11 @@ Installation
 Using Package Control, install "ApacheConf" or clone this repo in your packages folder.
 
 Credits
--------
+-------sudo apt update
+sudo apt install apache2
+sudo a2enmod ssl rewrite
+sudo systemctl restart apache2
+
 
 > I came across the ApacheConf plugin after a quick search for “Sublime Text Apache”, but only after *first* checking Package Control, which we all know is a stellar package manager by any standards.
 >
